@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(177, 195, 175);
+    }
+    #container{
+      display: flex;
+    }
+    #nav{
+      height: 1.8cm;
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      background-color: black;
+      color: white;
+      margin: -8px;
+    }
+    #title{
+      margin-right: 18cm;
+      margin-left: 1cm;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    a{
+      margin-top: 0.5cm ;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: larger;
+      color: white;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    #name{
+      font-size: 70px;
+      color: rgb(208, 83, 20);
+    }
+    h1{
+      font-size: 30px;
+    }
+    #details{
+      padding: 150px;
+    }
+    #pic{
+      padding: 80px;
+    }
+    #mypic{
+      clip-path: circle(50%);
+      border: 1px solid black;
+    }
+    button{
+      background-color: rgba(77, 35, 35, 0.916);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    span{
+      animation-name: color;
+      animation-duration: 4s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes color{
+      from { color: rgb(0, 217, 255);}
+      to { color: rgb(255, 0, 144);}
+    }
+    #hr{
+      width: 39.5cm;
+      background-color: black;
+      height: 5px;
+      margin-top: -40px;
+    }
+    #s1{
+      width: 7cm;
+      height: 10px;
+      background-color: rgb(85, 81, 81);
+    }
+    #ss1{
+      background-color: greenyellow;
+      width: 6cm;
+      height: 10px;
+    }
+    #ss2{
+      background-color: greenyellow;
+      width: 5cm;
+      height: 10px;
+    }
+    #ss3{
+      background-color: greenyellow;
+      width: 4.5cm;
+      height: 10px;
+    }
+    #f1{
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+    }
+    #sss1{
+      margin-right: 200px;
+    }
+    #hr1{
+      height: 5px;
+      width: 39.5cm;
+      background-color: black;
+      margin-top: 3cm;
+    }
+    #hr2{
+      height: 5px;
+      width: 39.5cm;
+      background-color: black;
+    }
+    #skill{
+      display: flex;
+      justify-content: center;
+    }
+    #i1{
+      width: 13cm;
+      height: 10cm;
+      margin: 50px;
+      margin-left: 150px;
+      border: 2px solid #312f2f;
+      border-radius: 7px;
+      padding: 10px;
+    }
+    #resume{
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+    #button{
+      margin-left: 20px;
+      color: black;
+      background-color: rgb(255, 0, 0);
+      animation-name: button;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+    }
+    @keyframes button{
+      from{background-color: rgb(8, 0, 255);}
+      to{ background-color: rgba(red, green, blue, alpha) ;}
+    }
+    spa{
+      font-weight: bold;
+      font-size:larger;
+      margin-top: 10px;
+    }
+    #skill{
+      text-decoration: underline;
+    }
+    #myproject{
+      text-decoration: underline;
+    }
+    #i2{
+      border-radius: 50px;
+      padding: 25px;
+    }
+    #contact{
+      display: flex;
+      justify-content: center;
+    }
+    footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(1, 1, 1);
+            height: 2.5cm;
+            margin: -8px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        
+  </style>
+</head>
+<body>
+  <div id="nav">
+    <h1 id="title">Marpu Giribabu</h1>
+    <a href="#details">About</a>
+    <a href="#skill">Skills</a>
+    <a href="#project">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div id="container">
+  <div id="details">
+    <h1>Hello it's me</h1>
+    <h1 id="name">Giribabu Marpu</h1>
+    <h1>And I'm a <span>Frontend Developer</span></h1>
+    <p>Experience in web design and development knowledge producing quality work. </p>
+    <button><a href="#contact">Contact Me</a></button>
+  </div>
+  <div id="pic">
+    <img id="mypic" src="https://cdn.glitch.global/fd163eab-950d-4b66-849f-fcdcdbba4394/giriii.jpg?v=1708057354430" width="400px" height="400px">
+  </div>
+  </div>
+  <hr id="hr">
+  <div>
+    <h1 id="skill">My Skills</h1><br><br>
+    <div id="f1">
+      <div id="sss1"><p>HTML &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;85%</p><div id="s1"><div id="ss1"></div></div></div>
+      <div id="sss2"><p>CSS  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;85%</p><div id="s1"><div id="ss1"></div></div></div>
+    </div><br><br><br>
+    <div id="f1">
+      <div id="sss1"><p>JAVA SCRIPT  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;70%</p><div id="s1"><div id="ss2"></div></div></div>
+      <div id="sss2"><p>JAVA  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;60%</p><div id="s1"><div id="ss3"></div></div></div>
+    </div><br><br><br>
+    <div id="f1">
+      <div id="sss1"><p>REACT  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;65%</p><div id="s1"><div id="ss3"></div></div></div>
+      <div id="sss2"><p>NODE JS  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;70%</p><div id="s1"><div id="ss2"></div></div></div>
+    </div>
+  </div>
+  <hr id="hr1">
+  <div id="project">
+    <center><h1 id="myproject">My Project</h1></center>
+    <div>
+      <img id="i1" src="https://cdn.glitch.global/fd163eab-950d-4b66-849f-fcdcdbba4394/Screenshot%20(38).png?v=1708078450182">
+      <img id="i1" src="https://cdn.glitch.global/fd163eab-950d-4b66-849f-fcdcdbba4394/Screenshot%20(37).png?v=1708078455365">
+    </div>
+    <div>
+      <img id="i1" src="https://cdn.glitch.global/fd163eab-950d-4b66-849f-fcdcdbba4394/Screenshot%20(36).png?v=1708078461275">
+      <img id="i1" src="https://cdn.glitch.global/fd163eab-950d-4b66-849f-fcdcdbba4394/Screenshot%20(35).png?v=1708078462902">
+    </div>
+    <center><h1>&#8592; WEALTH FROM WASTE &#8594;</h1></center><br>
+  </div>
+  <hr id="hr2">
+  <div id="resume">
+    <spa>Download Resume :</spa><button id="button"><a href="https://cdn.glitch.global/fd163eab-950d-4b66-849f-fcdcdbba4394/RESUME%20FINAL.pdf?v=1708080132443">RESUME</a></button>
+  </div>
+  <div id="contact">
+    <a href="https://www.instagram.com/accounts/login/?hl=en"><img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtc8mGmAa2LZVZVgb0tfeAYkyAPL8VokOvaw&usqp=CAU" width="50px" height="50px" alt=""></a>
+    <a href="https://www.facebook.com/"><img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQliexav48ADjIz2CAAkNNnFh47ien3GD39Hg&usqp=CAU" width="50px" height="50px" alt=""></a>
+    <a href="https://www.facebook.com/"><img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2S1vdseanILEWr8phCMgP0nB9DkrLgcqZ7Q&usqp=CAU" width="50px" height="50px" alt=""></a>
+    <a href="#"><img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrL4Z3CoxOt01vgAQL7Sj8e_-NfCNjEyKBbA&usqp=CAU" width="50px" height="50px" alt=""></a>
+    <a href="https://web.whatsapp.com/"><img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNNP0lxy0WPcsExJnzdHa6jOrjGEdMv8WvA&usqp=CAU" width="50px" height="50px" alt=""></a>
+  </div><br>
+  <footer>
+    <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+</footer>
+</body>
+</html>
